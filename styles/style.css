@@ -1,8 +1,120 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: 'Poppins';
+  padding: 0;
+  margin: 0;
+}
 
-*/
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 15px 25px;
+}
+.logo-image {
+  heigth: 500px;
+  width: 300px;
+  align-items: left;
+}
+.nav-el {
+  justify-content: space-between;
+  align-items: strech;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin: 10px;
+  font-size: 20px;
+}
+.landing {
+  background-image: url('../images/landing.jpg');
+  color: white;
+  background-size: cover;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 5em;
+}
+#description {
+  font-weight: 200;
+  font-size: 30px;
+  margin: 0 4em;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  place-content: center;
+  font-weight: 550;
+  font-size: 2em;
+  margin-top: 30px;
+}
+.whatsonspotify {
+  border-bottom: 4px solid #1ed760;
+  margin-bottom: 2em;
+}
+.parts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 5%;
+}
+.parts img {
+  height: 100px;
+}
+.parts > div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mheader {
+  color: #28b463;
+  font-weight: 550;
+  font-size: 30px;
+  padding: 0.5em 0;
+  text-align: center;
+}
+.mexp {
+  text-align: center;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #28b463;
+  justify-content: space-around;
+  margin: 2em 3em;
+  padding: 30px 3em;
+}
+.footer > div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-title {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+.ftitle-span {
+  border-bottom: 2px solid white;
+  margin-bottom: 2em;
+}
+.app-image {
+}
